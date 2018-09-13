@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.capitalsocial.capitalsocial.view.DetalleServicioActivity"
+    android:id="@+id/menuFlotante">
+
+   <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu_flotante"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fab:menu_labels_style="@style/MenuLabelsStyle"
+        fab:menu_icon="@android:drawable/ic_menu_share"
+        fab:menu_backgroundColor="@color/colorBackgroundMenuFlotante"
+        fab:menu_colorNormal="@color/colorPrimaryDark"
+        fab:menu_colorPressed="@color/colorPressedMenuFlotante"
+        fab:menu_colorRipple="@color/colorRippleMenuFlotante">
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icons_mail"
+            fab:fab_size="mini"
+            fab:fab_label="Email"
+            style="@style/MenuButtonsSmall"
+            android:onClick="floatActionButtonOnClick" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_whatsapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icons_whatss"
+            fab:fab_size="mini"
+            fab:fab_label="Whats App"
+            style="@style/MenuButtonsSmall"
+            android:onClick="floatActionButtonOnClick" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icons_facebook"
+            fab:fab_size="mini"
+            fab:fab_label="Facebook"
+            style="@style/MenuButtonsSmall"
+            android:onClick="floatActionButtonOnClick" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icons_twitter"
+            fab:fab_size="mini"
+            fab:fab_label="Twitter"
+            fab:fab_progress_showBackground="false"
+            style="@style/MenuButtonsSmall"
+            android:onClick="floatActionButtonOnClick" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+</android.support.design.widget.CoordinatorLayout>

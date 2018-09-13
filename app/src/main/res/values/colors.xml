@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff149b</color>
+    <color name="colorPrimaryDark">#c6006d</color>
+    <color name="colorAccent">#FF149B</color>
+
+    <color name="backgroundtext_cad">#80FFFFFF</color>
+
+    <!--Color menu flotante-->
+    <color name="colorBackgroundMenuFlotante">#B3000000</color>
+    <color name="colorRippleMenuFlotante">#FF149B</color>
+    <color name="colorPressedMenuFlotante">#FF149B</color>
+
+    <color name="white">#FFF</color>
+
+
+</resources>

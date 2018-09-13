@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Capital Social</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_usuario">Usuario</string>
+    <string name="error_usuario_requerido">El usuario es requerido</string>
+
+
+    <string name="prompt_contrasenia">Contraseña</string>
+    <string name="error_contrasenia_invalida">La contraseña es requerida</string>
+
+
+    <string name="action_ingresar">Ingresar</string>
+    <string name="action_registrate">Registrate</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="ingresar_usuario_contrasenia">o ingresa tu correo y tu contraseña</string>
+    <string name="restablecer_contrasenia">¿Has olvidado tu contraseña?</string>
+    <string name="inicio_sesion_fb">Inicia Sesion con Facebook</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="transitionname_servicio">transitionnameservicio</string>
+    <string name="servisioname_card">chilis</string>
+    <string name="descripcion_card">Descripcion del servicio que se ofrece</string>
+
+
+    <string name="facebook_app_id">378556509253153</string>
+    <string name="fb_login_protocol_scheme">378556509253153</string>
+    <string name="sat_sin_internet_revisa">Revisa tu conexión a internet y vuelve a intentarlo</string>
+    <string name="titulo_toolbar">Capital Social</string>
+    <string name="title_activity_detalle_servicio">DetalleServicioActivity</string>
+    <string name="nombre_servicio">Chillis</string>
+    <string name="promocion_servicio">20% en pizzas grandes y extragrandes</string>
+    <string name="lorem">Descripción</string>
+    <string name="search_busca_servicio">Buscar</string>
+
+
+    <!--
+    <string name="error_incorrect_password">This password is incorrect</string>
+-->
+    <!--    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>-->
+
+    <!--
+     <string name="error_usuario_invalido">Usuario invalido</string>
+ -->
+
+
+</resources>

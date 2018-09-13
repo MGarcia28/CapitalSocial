@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_cardview"
+    android:layout_margin="2dp"
+    cardview:cardCornerRadius="@dimen/cornerradious_cardview">
+
+    <ImageView
+        android:id="@+id/logo_servicio_card"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_cardview"
+        android:background="@drawable/iron"
+        android:scaleType="centerCrop"
+        android:transitionName="@string/transitionname_servicio" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/backgroundtext_cad"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        >
+
+        <TextView
+            android:id="@+id/tv_nombre_servicio_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/servisioname_card"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textsize_nombre_servicio_card" />
+
+        <TextView
+            android:id="@+id/tv_descripcion_servicio_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion_card"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:textSize="@dimen/textsize_descripcion_card" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

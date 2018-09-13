@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="height_cardview">200dp</dimen>
+    <dimen name="textsize_nombre_servicio_card">20sp</dimen>
+    <dimen name="textsize_descripcion_card">15sp</dimen>
+    <dimen name="cornerradious_cardview">2dp</dimen>
+    <dimen name="contenedor_margin">5dp</dimen>
+    <dimen name="bottombar_height">70dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbarlayout_height">245dp</dimen>
+    <dimen name="textsize_servicio_name_detalle">16sp</dimen>
+    <dimen name="textsize_servicio_promocion_detalle">16sp</dimen>
+    <dimen name="height_divider">1dp</dimen>
+    <dimen name="textsize_descripcion">15sp</dimen>
+    <dimen name="paddingtop_descripcion">15dp</dimen>
+    <dimen name="smallTxtSize">15sp</dimen>
+</resources>

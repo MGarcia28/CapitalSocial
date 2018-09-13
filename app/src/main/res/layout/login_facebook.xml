@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="mx.capitalsocial.capitalsocial.view.DetalleServicioActivity"
+    android:id="@+id/menuFlotante">
+
+    <FrameLayout
+        android:id="@+id/FrameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="30dp">
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/facebook_sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/fb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inicio_sesion_fb"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/icons_facebook_white"
+            android:paddingLeft="35dp"
+            android:paddingRight="40dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:onClick="onClick"/>
+    </FrameLayout>
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
