@@ -23,7 +23,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="transitionname_servicio">transitionnameservicio</string>
     <string name="servisioname_card">chilis</string>
-    <string name="descripcion_card">Descripcion del servicio que se ofrece</string>
+    <string name="descripcion_card">Descripcion del servicio</string>
 
 
     <string name="facebook_app_id">378556509253153</string>
