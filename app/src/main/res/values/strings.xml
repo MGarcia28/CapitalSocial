@@ -15,7 +15,7 @@
     <string name="action_registrate">Registrate</string>
 
     <string name="action_sign_in_short">Sign in</string>
-    <string name="ingresar_usuario_contrasenia">o ingresa tu correo y tu contraseña</string>
+    <string name="ingresar_usuario_contrasenia">o ingresa tu usuario y tu contraseña</string>
     <string name="restablecer_contrasenia">¿Has olvidado tu contraseña?</string>
     <string name="inicio_sesion_fb">Inicia Sesion con Facebook</string>
 
